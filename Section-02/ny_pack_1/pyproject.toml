@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ny_pack_1"
+version = "0.1.0"
+description = "My first package!"
+authors = [
+    { name = "Nikhil Yadav", email = "nikhilyadav.uk@gmail.com" }
+]
+
+[project.scripts]
+print_bash_cmd = "ny_pack_1.__main__:main"
