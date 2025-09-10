@@ -63,4 +63,6 @@ print_bash_cmd
 ```sh
 pip3 install build
 python3 -m build
+pip3 install twine
+python3 -m twine upload dist/* --skip-existing
 ```
